@@ -1,0 +1,95 @@
+/* Data table */
+.v-card--variant-outlined {
+    border: thin solid #ddd !important;
+}
+
+.v-data-table-column--align-center{
+    text-align: center !important;
+}
+
+.v-data-table-column--align-center > .v-data-table-header__content{
+    display: flex;
+    justify-content: center;
+}
+
+.v-data-table-footer{
+    border-top: thin solid #ddd;
+}
+/* Data table */
+
+@media only screen and (max-width: 600px){
+.Vue-Toastification__container .Vue-Toastification__toast {
+    margin-top: 14px;
+    border-radius: 8px;
+    width: 93% !important;
+    margin-inline: auto;
+}
+}
+
+
+@font-face {
+    font-family: 'Sukhumvit Set';
+    src: url('@/assets/fonts/SukhumvitSet-Bold.eot');
+    src: url('@/assets/fonts/SukhumvitSet-Bold.eot?#iefix') format('embedded-opentype'),
+        url('@/assets/fonts/SukhumvitSet-Bold.woff2') format('woff2'),
+        url('@/assets/fonts/SukhumvitSet-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sukhumvit Set';
+    src: url('@/assets/fonts/SukhumvitSet-Light.eot');
+    src: url('@/assets/fonts/SukhumvitSet-Light.eot?#iefix') format('embedded-opentype'),
+        url('@/assets/fonts/SukhumvitSet-Light.woff2') format('woff2'),
+        url('@/assets/fonts/SukhumvitSet-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sukhumvit Set';
+    src: url('@/assets/fonts/SukhumvitSet-Medium.eot');
+    src: url('@/assets/fonts/SukhumvitSet-Medium.eot?#iefix') format('embedded-opentype'),
+        url('@/assets/fonts/SukhumvitSet-Medium.woff2') format('woff2'),
+        url('@/assets/fonts/SukhumvitSet-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sukhumvit Set';
+    src: url('@/assets/fonts/SukhumvitSet-SemiBold.eot');
+    src: url('@/assets/fonts/SukhumvitSet-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('@/assets/fonts/SukhumvitSet-SemiBold.woff2') format('woff2'),
+        url('@/assets/fonts/SukhumvitSet-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sukhumvit Set';
+    src: url('@/assets/fonts/SukhumvitSet-Thin.eot');
+    src: url('@/assets/fonts/SukhumvitSet-Thin.eot?#iefix') format('embedded-opentype'),
+        url('@/assets/fonts/SukhumvitSet-Thin.woff2') format('woff2'),
+        url('@/assets/fonts/SukhumvitSet-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sukhumvit Set';
+    src: url('@/assets/fonts/SukhumvitSet-Text.eot');
+    src: url('@/assets/fonts/SukhumvitSet-Text.eot?#iefix') format('embedded-opentype'),
+        url('@/assets/fonts/SukhumvitSet-Text.woff2') format('woff2'),
+        url('@/assets/fonts/SukhumvitSet-Text.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

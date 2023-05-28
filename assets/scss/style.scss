@@ -1,0 +1,17 @@
+@use "vuetify/styles";
+// *,
+// html,body {
+//     font-family: 'Inter', 'Sukhumvit Set', sans-serif !important;
+//     -webkit-font-smooting: antialiased !important
+// }
+
+*,
+html,body {
+    font-family: 'Noto Sans Thai', sans-serif !important;
+    -webkit-font-smooting: antialiased !important
+}
+
+.sarabun-comma {
+    font-family: "Sarabun" !important;
+    font-size: 20px;
+}
